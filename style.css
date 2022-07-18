@@ -1,0 +1,178 @@
+.container-header{
+    background-color: #562eff;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px ;
+}
+.idea img{
+    height: 40px;
+    width: 40px;
+
+
+}
+ .titel{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+    
+ .icon-titel{
+
+    display: flex;
+    
+    } 
+.navbar a{ 
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+.navbar{
+    display: flex;
+  
+}
+.profil{
+    padding-bottom: 30px;
+    padding-left:10px;
+}
+.players{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    margin-top: 26px;
+    border-radius: 5px;
+}
+.top-player{
+    margin-bottom:10px ;
+}
+.section-titel{
+
+    color: #562eff;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.player img{
+    height: 56px;
+    width: 56px;
+   
+    
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.player{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    
+}
+hr{
+    border: solid 1px gray;
+}
+body{
+    font-family: 'Poppins';
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-img{
+    height: 117px;
+    width: 177px;
+}
+.blog{
+    display: flex;
+    column-gap: 30px;
+}
+.blog-titel{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.all{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-row-gap: 26px;
+    
+}
+p > a{
+    text-decoration: none;
+    color: #562eff;
+    font-size: 16px;
+}
+.corces{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+   grid-column-gap:24px;
+}
+.lates-course{
+    color: #562eff;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-block-end:0;
+}
+.lates img{
+    height: 104px;
+    width: 224px;
+}
+.lettel{
+    color: red;
+    font-size: .8rem;
+}
+.img-titel{
+    font-size: 16px;
+    margin-block-end: 0;
+}
+.fa-solid{
+font-size: 12px;
+color: gold;
+
+}
+.corce-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-regular{
+    color: red;
+    border: solid red 0px;
+    border-radius: 5px;
+    background-color: rgb(248, 209, 209);
+}
+.rate{
+    color: gray;
+padding-left: 10px;
+}  
+@media screen and (max-width:575px){
+.players{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.container{
+   
+    width: 100%;
+    
+    
+}
+.all{
+    grid-template-columns: repeat(1,1fr);
+}
+.corces{
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 30px;
+}
+}
